@@ -11,6 +11,6 @@
 #$h2s
 
 #$divs1 = $scraped_page.ParsedHtml.body.getElementsByTagName("div") | Where {
-    $_.getAttributeNode("class").value -ilike "div-1" } | select innerText
+#    $_.getAttributeNode("class").value -ilike "div-1" } | select innerText
 
 #$divs1
