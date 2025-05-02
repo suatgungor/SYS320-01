@@ -1,0 +1,12 @@
+		<td>etc/passwd</td>
+		<td>Access attempt to Linux users list</td>
+		<td>cmd=</td>
+		<td>Windows reverse shell attempt</td>
+		<td>/bin/bash</td>
+		<td>Linux shell attempt</td>
+		<td>/bin/sh</td>
+		<td>Linux shell attempt</td>
+		<td>1=1#</td>
+		<td>SQL injection attempt</td>
+		<td>1=1--</td>
+		<td>SQL injection attempt</td>

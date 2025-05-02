@@ -1,0 +1,9 @@
+#!/bin/bash
+
+logfile=$1
+iocfile=$2
+
+grep -f "$iocfile" "$logfile" | awk '{print $1, $4, $7}' > report.txt
+
+cat report.txt
+
